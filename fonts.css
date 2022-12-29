@@ -1,9 +1,26 @@
 @font-face {
     font-family: 'Brandon Grotesque';
     src: url('./Fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
-        url('./Fonts/BrandonGrotesque-Regular.woff2') format('ttf');
+        url('./Fonts/BrandonGrotesque-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Arial';
+    src: url('./Fonts/Arial.woff2') format('woff2'),
+        url('./Fonts/Arial.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'TisaOT';
+    src: url('./Fonts/TisaSansOT-Thin.woff2') format('woff2'),
+        url('./Fonts/TisaSansOT-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 
