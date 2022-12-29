@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+body {
     background-color: #F7F7F7;
 }
 .dot {
@@ -67,6 +69,7 @@ h1 {
 .section-first-leftside {
     margin-left: 180px;
     display: inline-block;
+    vertical-align: middle;
 }
 .paragraph-button1 p, .paragraph-button2 p {
     color: #262626;
@@ -85,6 +88,10 @@ h1 {
     margin-left: 30px;
     font-weight: bold;
     box-shadow: 0px 2px 4px #00000029;
+    cursor: pointer;
+}
+.paragraph-button1 button:hover {
+    opacity: 0.8;
 }
 .paragraph-button2 button {
     background-color: #FFFFFF;
@@ -96,6 +103,10 @@ h1 {
     padding: 9.5px 16px;
     font-size: 14px;
     margin-left: 30px;
+    cursor: pointer;
+}
+.paragraph-button2 button:hover {
+    opacity: 0.8;
 }
 .paragraph-button1 {
     margin-top: 77.14px;
@@ -136,8 +147,39 @@ h1 {
     margin-left: 90px;
 }
 .first-section .right-side {
-    width: 300px;
+    width: 200px;
     height: 288px;
     background-color: #FFFFFF;
     display: inline-block;
 }
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.section-first-rightside {
+    width: 393px;
+    display: inline-block;
+    height: 288px;
+    margin-top: 0px;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+}
+h4 {
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.face-images-wrapper img {
+    width: 32.91px;
+    height: 32.91px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.face-images-wrapper {
+    margin-top: 38.28px;
+    margin-left: 90px;
+}
+.face-image2, .face-image3, .face-image4 {
+    margin-left: 27.09px;
+}
+
