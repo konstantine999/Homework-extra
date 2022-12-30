@@ -255,6 +255,7 @@ h4 {
 .projects-button p {
     display: inline-block;
     font-family: 'Brandon Grotesque';
+    margin-left: 15px;
 }
 .projects-button {
     margin-top: 20px;
