@@ -182,4 +182,100 @@ h4 {
 .face-image2, .face-image3, .face-image4 {
     margin-left: 27.09px;
 }
-
+.building-image2 {
+    width: 87.5%;
+    margin-left: 90px;
+    height: 810px;
+    margin-top: 120px;
+}
+.second-section h3 {
+    font-family: 'Brandon Grotesque';
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin-top: 90px;
+}
+.second-section-wrapper {
+    margin-left: 181px;
+}
+.recent-project-wrapper {
+    margin-top: 60px;
+}
+.recent-projects1, .recent-projects2, .recent-projects3, img {
+    width: 270px;
+    height: 240px;
+}
+.recent-projects1, .recent-projects2, .recent-projects3 {
+    display: inline-block;
+}
+.recent-projects2, .recent-projects3 {
+    margin-left: 80px;
+}
+.information-cointainer h5 {
+    color: #000000;
+    font-family: 'Brandon Grotesque';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+.recent-project-information {
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    width: 270px;
+    height: 160px;
+}
+.information-cointainer {
+    margin-left: 30px;
+    padding-top: 15px;
+}
+.information-cointainer p {
+    color: #262626;
+    font-family: 'Brandon Grotesque';
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.information-cointainer span {
+    color: #959595;
+    font-family: 'Brandon Grotesque';
+    font-size: 12px;
+}
+.projects-button button {
+    display: inline-block;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #0865DE;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+.projects-button button:hover {
+    opacity: 0.8;
+}
+.projects-button p {
+    display: inline-block;
+    font-family: 'Brandon Grotesque';
+}
+.projects-button {
+    margin-top: 20px;
+}
+.all-projects-button-wrapper {
+    text-align: center;
+}
+.all-projects-button {
+    margin-top: 90.62px;
+    margin: 90.62 auto;
+    background-color: #FF7600;
+    font-size: 12px;
+    font-family: 'Brandon Grotesque';
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    padding: 20px 60px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.all-projects-button:hover {
+    opacity: 0.8;
+}
