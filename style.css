@@ -165,7 +165,7 @@ header {
     vertical-align: middle;
     background-color: #FFFFFF;
 }
-h4 {
+.first-section h4 {
     margin-top: 100px;
     margin-left: 90px;
 }
@@ -279,4 +279,105 @@ h4 {
 }
 .all-projects-button:hover {
     opacity: 0.8;
+}
+.third-section .infos {
+    width: 231px;
+    display: inline-block;
+    height: 422px;
+    background-color: #f0f0f0;
+    vertical-align: middle;
+}
+.infos-wrapper {
+    margin-top: 102px;
+    display: inline-block;
+}
+.infos p span::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 18px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: #000000;
+}
+.infos h4 {
+    margin-top: 62px;
+    text-align: center;
+    color: #111111;
+    font-family: 'Brandon Grotesque';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+.infos div a {
+    text-decoration: none;
+    margin-top: 40px;
+    text-align: center;
+    color: #959595;
+    font-family: 'Arial';
+    font-size: 11px;
+    letter-spacing: 0.88px;
+    display: block;
+}
+.infos div {
+    margin-top: 59px;
+}
+.third-section .right-block {
+    vertical-align: middle;
+    width: calc(100% - 940px);
+    background-color: #FFFFFF;
+    height: 422px;
+    display: inline-block;
+}
+.third-section .right-block-text {
+    margin-left: 109px;
+}
+.third-section .right-block h4 {
+    color: #111111;
+    font-family: 'Brandon Grotesque';
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    margin-top: 62px;
+}
+.third-section .right-block p {
+    font-size: 14px;
+    color: #111111;
+    letter-spacing: 0.28px;
+    width: 296px;
+    font-family: 'TisaOT';
+    font-weight: bold;
+    margin-top: 63px;
+}
+.third-section .right-block span {
+    color: #111111;
+    font-family: 'Arial';
+    letter-spacing: 0.88px;
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    margin-top: 30px;
+}
+form {
+    display: inline-block;
+}
+input {
+    width: 250px;
+    height: 37px;
+    border: 2px solid #0865DE;
+}
+::placeholder {
+    padding-left: 16px;
+    color: #959595;
+    font-size: 11px;
+    font-family: 'Arial';
+    letter-spacing: 0.88px;
+}
+.third-section button {
+    display: inline-block;
+    padding: 11px 9px;
+    background-color: #0865DE;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
