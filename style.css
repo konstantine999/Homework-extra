@@ -145,6 +145,13 @@ h1 {
     letter-spacing: 1.4px;
     font-family: 'Brandon Grotesque';
 }
+.bottom-information a {
+    color: #959595;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-family: 'Brandon Grotesque';
+    margin-left: 90px;
+}
 .bottom-information span:nth-child(3) {
     text-decoration: underline;
 }
